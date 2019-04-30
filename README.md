@@ -10,6 +10,8 @@ source activate segFCN
 (segFCN)$ pip install scikit-image Pillow matplotlib numpy tensorflow
 
 ## do it yourself
+git clone https://github.com/sbseong/FCN_tf
+mv model models
 edit 'test1.py' sPath = [your path]
 
 (segFCN)$ python3 test.py --dir [your path]/FCN_tf
