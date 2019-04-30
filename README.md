@@ -14,6 +14,8 @@ git clone https://github.com/sbseong/FCN_tf
 
 mv model models
 
+VGG16 checkpoint PATH 생성 (http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
+
 edit 'test1.py' sPath = [your path]
 
 (segFCN)$ python3 test.py --dir [your path]/FCN_tf
