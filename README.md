@@ -9,4 +9,11 @@ source activate segFCN
 
 (segFCN)$ pip install scikit-image Pillow matplotlib numpy
 
-(segFCN)$ python3 test.py --dir /projects1/pi/sbseong/pythonwork/FCN_demo
+## do it yourself
+(segFCN)$ python3 test.py --dir /projects1/pi/sbseong/pythonwork/FCN_tf
+
+## input image
+[FCN_tf] / data /  _____.jpg
+
+## output image
+[FCN_tf] / tf_image_segmentation / generated / pred_{}.jpg
