@@ -11,7 +11,8 @@ source activate segFCN
 
 ## do it yourself
 edit 'test1.py' sPath = [your path]
-(segFCN)$ python3 test.py --dir /projects1/pi/sbseong/pythonwork/FCN_tf
+
+(segFCN)$ python3 test.py --dir [your path]/FCN_tf
 
 ## input image
 [FCN_tf] / data /  _____.jpg
