@@ -14,7 +14,8 @@ git clone https://github.com/sbseong/FCN_tf
 
 mv model models
 
-VGG16 checkpoint PATH 생성 (http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
+download file at ~/FCN_tf/im_image_segmentation/saver/
+https://www.dropbox.com/s/7r6lnilgt78ljia/fcn_8s.tar.gz?dl=0
 
 edit 'test1.py' sPath = [your path]
 
