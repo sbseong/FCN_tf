@@ -14,8 +14,11 @@ git clone https://github.com/sbseong/FCN_tf
 
 mv model models
 
-download file at ~/FCN_tf/im_image_segmentation/saver/
+download file 
+
 https://www.dropbox.com/s/7r6lnilgt78ljia/fcn_8s.tar.gz?dl=0
+
+at ~/FCN_tf/im_image_segmentation/saver/
 
 edit 'test1.py' sPath = [your path]
 
