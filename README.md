@@ -7,9 +7,10 @@ source activate segFCN
 
 (segFCN)$ pip install --upgrade $TF_BINARY_URL
 
-(segFCN)$ pip install scikit-image Pillow matplotlib numpy
+(segFCN)$ pip install scikit-image Pillow matplotlib numpy tensorflow
 
 ## do it yourself
+edit 'test1.py' sPath = [your path]
 (segFCN)$ python3 test.py --dir /projects1/pi/sbseong/pythonwork/FCN_tf
 
 ## input image
