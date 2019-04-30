@@ -8,5 +8,6 @@ source activate segFCN
 (segFCN)$ pip install scikit-image Pillow matplotlib numpy
 
 #download "vgg_16.ckpt"
+
 (segFCN)$ python3 test.py --dir /projects1/pi/sbseong/pythonwork/FCN_demo
 
